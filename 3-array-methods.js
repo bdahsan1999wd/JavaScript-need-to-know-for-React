@@ -30,11 +30,13 @@ const prices = products.map(product => product.price);
 
 // multiline arrow function
 products.forEach(product => {
-
+    
 })
 
 
 /* ------------------------------------------------- */
+// using arrow function----------!!!
+
 // 3. filter   /* only condition Return array */
 
 const cheap = products.filter(product => product.price <= 5000);
@@ -45,7 +47,9 @@ const specificName = products.filter(p => p.name.includes('n'));
 
 
 /* ------------------------------------------------- */
-//4. find   /* only first match condition Return */
+// using arrow function----------!!!
+
+// 4. find   /* only first match condition Return */
 
 const special = products.find(p => p.name.includes('n'));
 console.log(special);
