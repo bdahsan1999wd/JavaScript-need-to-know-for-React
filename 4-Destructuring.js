@@ -65,4 +65,5 @@ const { machine, ide } = employee;
 
 const { weight, address } = employee.specification;
 
-const { brand } = employee?.specification?.watch;   /* using optional chaining */
+// using Optional Chaining ( ?. ) -----!!!
+const { brand } = employee?.specification?.watch;
