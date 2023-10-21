@@ -30,7 +30,7 @@ const prices = products.map(product => product.price);
 
 // multiline arrow function
 products.forEach(product => {
-    
+
 })
 
 
@@ -53,3 +53,16 @@ const specificName = products.filter(p => p.name.includes('n'));
 
 const special = products.find(p => p.name.includes('n'));
 console.log(special);
+
+
+/* ------------------------------------------------- */
+// reduce ----------!!!
+
+const numbers = [1, 2, 3, 4, 5];
+
+const sum = numbers.reduce((accumulator, currentValue) => {
+    // console.log(accumulator, currentValue);
+    return accumulator + currentValue;
+}, 0);
+
+console.log(sum); // Output: 15
